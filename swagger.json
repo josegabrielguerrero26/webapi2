@@ -7,12 +7,27 @@
   },
   "host": "localhost:8080",
   "basePath": "/",
+  "tags": [
+    {
+      "name": "Drivers",
+      "description": "Operations about drivers"
+    },
+    {
+      "name": "Vehicles",
+      "description": "Operations about vehicles"
+    },
+    {
+    "name": "Information",
+    "description": "General Information"
+    }
+  ],
   "schemes": [
     "http"
   ],
   "paths": {
     "/contacts/": {
       "get": {
+        "tags": ["Drivers"],
         "description": "",
         "produces": [
           "application/json"
@@ -25,6 +40,7 @@
         }
       },
       "post": {
+        "tags": ["Drivers"],
         "description": "",
         "parameters": [
           {
@@ -64,6 +80,7 @@
     },
     "/contacts/{id}": {
       "get": {
+        "tags": ["Drivers"],
         "description": "",
         "produces": [
           "application/json"
@@ -83,6 +100,7 @@
         }
       },
       "put": {
+        "tags": ["Drivers"],
         "description": "",
         "parameters": [
           {
@@ -126,6 +144,7 @@
         }
       },
       "delete": {
+        "tags": ["Drivers"],
         "description": "",
         "parameters": [
           {
@@ -147,6 +166,7 @@
     },
     "/veh/": {
       "get": {
+        "tags": ["Vehicles"],
         "description": "",
         "produces": [
           "application/json"
@@ -159,6 +179,7 @@
         }
       },
       "post": {
+        "tags": ["Vehicles"],
         "description": "",
         "parameters": [
           {
@@ -204,6 +225,7 @@
     },
     "/veh/{id}": {
       "get": {
+        "tags": ["Vehicles"],
         "description": "",
         "produces": [
           "application/json"
@@ -223,6 +245,7 @@
         }
       },
       "put": {
+        "tags": ["Vehicles"],
         "description": "",
         "parameters": [
           {
@@ -272,6 +295,7 @@
         }
       },
       "delete": {
+        "tags": ["Vehicles"],
         "description": "",
         "parameters": [
           {
@@ -293,6 +317,7 @@
     },
     "/api-docs": {
       "get": {
+        "tags": ["Information"],
         "description": "",
         "parameters": [],
         "responses": {}
