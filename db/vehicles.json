@@ -1,0 +1,452 @@
+[
+    {
+      "Veh_number": "KE0028",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C25L6602934",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0029",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C28L6602958",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0030",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C28L6602698",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0031",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C24L6584104",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 118649
+    },
+    {
+      "Veh_number": "KE0032",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C20L6602694",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0033",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C27L6602420",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0034",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C24L6602696",
+      "Purch_date": "2019-10-14",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "CA0352",
+      "Year": 20,
+      "Model": "CAVALILT",
+      "Vin": "LSGKB54H6LV041065",
+      "Purch_date": "2020-02-20",
+      "Curr_value": 201004,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KF0325",
+      "Year": 20,
+      "Model": "FORTELX",
+      "Vin": "3KPF24AD6LE193831",
+      "Purch_date": "2019-12-16",
+      "Curr_value": 281512,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "VV0B09",
+      "Year": 20,
+      "Model": "VENTO",
+      "Vin": "MEX512606LT047890",
+      "Purch_date": "2019-12-06",
+      "Curr_value": 195675,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0279",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22SXLJ110314",
+      "Purch_date": "2019-12-04",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0274",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22S6LJ110312",
+      "Purch_date": "2019-12-04",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NV0257",
+      "Year": 20,
+      "Model": "VERSADV",
+      "Vin": "3N1CN8AE1LL829113",
+      "Purch_date": "2019-12-03",
+      "Curr_value": 228320,
+      "Curr_odom": 7363
+    },
+    {
+      "Veh_number": "SU9203",
+      "Year": 19,
+      "Model": "SUBRBANB",
+      "Vin": "1GNSC8KC0KR356105",
+      "Purch_date": "2019-12-03",
+      "Curr_value": 710000,
+      "Curr_odom": 116386
+    },
+    {
+      "Veh_number": "KE0270",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C29L6622183",
+      "Purch_date": "2019-12-03",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0202",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C22L6614703",
+      "Purch_date": "2019-11-29",
+      "Curr_value": 458907,
+      "Curr_odom": 106441
+    },
+    {
+      "Veh_number": "AU0986",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H0LD058828",
+      "Purch_date": "2019-11-26",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0155",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C28L6612244",
+      "Purch_date": "2019-11-25",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0156",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22S4LJ108462",
+      "Purch_date": "2019-11-20",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AS0182",
+      "Year": 20,
+      "Model": "AVEOLS",
+      "Vin": "LSGHD52HXLD068458",
+      "Purch_date": "2019-11-20",
+      "Curr_value": 167620,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "B50160",
+      "Year": 20,
+      "Model": "BEAT5P",
+      "Vin": "MA6CB6CD0LT025086",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 133400,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "B50161",
+      "Year": 20,
+      "Model": "BEAT5P",
+      "Vin": "MA6CB6CD0LT019515",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 133400,
+      "Curr_odom": 33918
+    },
+    {
+      "Veh_number": "B50159",
+      "Year": 20,
+      "Model": "BEAT5P",
+      "Vin": "MA6CB6CD0LT019451",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 133400,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0740",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H2LD038774",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0742",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H2LD038421",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0741",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H2LD002681",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AS0118",
+      "Year": 20,
+      "Model": "AVEOLS",
+      "Vin": "LSGHD52HXLD055676",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 167620,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AS0119",
+      "Year": 20,
+      "Model": "AVEOLS",
+      "Vin": "LSGHD52HXLD066970",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 167620,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NK0155",
+      "Year": 20,
+      "Model": "KICKSADV",
+      "Vin": "3N8CP5HD1LL471230",
+      "Purch_date": "2019-11-16",
+      "Curr_value": 235274.8,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0667",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H3LD045345",
+      "Purch_date": "2019-11-13",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NV0105",
+      "Year": 20,
+      "Model": "VERSADV",
+      "Vin": "3N1CN8AE8LL829027",
+      "Purch_date": "2019-11-12",
+      "Curr_value": 243525,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NV0106",
+      "Year": 20,
+      "Model": "VERSADV",
+      "Vin": "3N1CN8AE7LL829150",
+      "Purch_date": "2019-11-12",
+      "Curr_value": 243525,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AS0097",
+      "Year": 20,
+      "Model": "AVEOLS",
+      "Vin": "LSGHD52H5LD068691",
+      "Purch_date": "2019-11-07",
+      "Curr_value": 167620,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "VS0172",
+      "Year": 20,
+      "Model": "VIRTUS",
+      "Vin": "9BWDL5BZ7LP042829",
+      "Purch_date": "2019-11-06",
+      "Curr_value": 230872.2,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0601",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H2LD045370",
+      "Purch_date": "2019-11-02",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0098",
+      "Year": 20,
+      "Model": "ERTIGAX",
+      "Vin": "MHYNC22S6LJ107863",
+      "Purch_date": "2019-10-28",
+      "Curr_value": 287991,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NM0246",
+      "Year": 20,
+      "Model": "MARCHABS",
+      "Vin": "3N1CK3CD6LL207851",
+      "Purch_date": "2019-10-25",
+      "Curr_value": 137600,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0087",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22S5LJ107000",
+      "Purch_date": "2019-10-25",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "KE0052",
+      "Year": 20,
+      "Model": "SEDONA",
+      "Vin": "KNDMB5C23L6584580",
+      "Purch_date": "2019-10-22",
+      "Curr_value": 458907,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NM0188",
+      "Year": 20,
+      "Model": "MARCHABS",
+      "Vin": "3N1CK3CD4LL207864",
+      "Purch_date": "2019-10-22",
+      "Curr_value": 137600,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0054",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22S6LJ105059",
+      "Purch_date": "2019-10-19",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "ZE0053",
+      "Year": 20,
+      "Model": "ERTIGA",
+      "Vin": "MHYNC22S5LJ104968",
+      "Purch_date": "2019-10-19",
+      "Curr_value": 265491,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "VS0061",
+      "Year": 20,
+      "Model": "VIRTUS",
+      "Vin": "9BWDL5BZ0LP043417",
+      "Purch_date": "2019-10-18",
+      "Curr_value": 230872,
+      "Curr_odom": 18598
+    },
+    {
+      "Veh_number": "VV0639",
+      "Year": 20,
+      "Model": "VENTO",
+      "Vin": "MEX512607LT034811",
+      "Purch_date": "2019-10-18",
+      "Curr_value": 195674.7,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "B50044",
+      "Year": 20,
+      "Model": "BEAT5P",
+      "Vin": "MA6CB6CD1LT013125",
+      "Purch_date": "2019-10-16",
+      "Curr_value": 133400,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "B50043",
+      "Year": 20,
+      "Model": "BEAT5P",
+      "Vin": "MA6CB6CD0LT013004",
+      "Purch_date": "2019-10-16",
+      "Curr_value": 133400,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0264",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H0LD038384",
+      "Purch_date": "2019-10-09",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "AU0263",
+      "Year": 20,
+      "Model": "AVEOLT",
+      "Vin": "LSGHD52H0LD038238",
+      "Purch_date": "2019-10-09",
+      "Curr_value": 180132,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NM0002",
+      "Year": 20,
+      "Model": "MARCHABS",
+      "Vin": "3N1CK3CD0LL207585",
+      "Purch_date": "2019-10-03",
+      "Curr_value": 137600,
+      "Curr_odom": 16
+    },
+    {
+      "Veh_number": "NV9370",
+      "Year": 19,
+      "Model": "VERSASEN",
+      "Vin": "3N1CN7ADXKL885065",
+      "Purch_date": "2019-07-08",
+      "Curr_value": 185775,
+      "Curr_odom": 16
+    }
+   ]
