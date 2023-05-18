@@ -1,11 +1,15 @@
-
-
-### local get all
+### local get users
 GET http://localhost:8080/contacts/ HTTP/1.1
-### local get 1
-GET http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
+### local geet vehicles
+GET http://localhost:8080/veh/ HTTP/1.1
 
-### Create contact 
+
+### local get 1 user
+GET http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
+### local get 1 user
+GET http://localhost:8080/veh/646667a9bcfda6fdb0a32d0c HTTP/1.1
+
+### Create contact User
 POST http://localhost:8080/contacts HTTP/1.1
 Content-Type: application/json
 
@@ -15,6 +19,19 @@ Content-Type: application/json
         "email":"delv@google.com",
         "city":"Austin",
         "birthday":"01/01/1950"
+}
+### Create contact veh
+POST http://localhost:8080/veh HTTP/1.1
+Content-Type: application/json
+
+{
+        "Veh_number": "TEST",
+        "Year": 20,
+        "Model": "ERTIGA",
+        "Vin": "MHYNC22SXLJ110314",
+        "Purch_date": "2019-12-04",
+        "Curr_value": 265491,
+        "Curr_odom": 16
 }
 
 ### PUT contact 
@@ -28,7 +45,22 @@ Content-Type: application/json
         "city":"Provo",
         "birthday":"02/06/1955"
 }
+### PUT vehicle 
+PUT http://localhost:8080/veh/646667a9bcfda6fdb0a32d0c HTTP/1.1
+Content-Type: application/json 
+
+{
+        "Veh_number": "TESTUpdated",
+        "Year": 20,
+        "Model": "ERTIGA",
+        "Vin": "MHYNC22SXLJ110314",
+        "Purch_date": "2019-12-04",
+        "Curr_value": 265491,
+        "Curr_odom": 16
+}
 
 ### DELETE contact 
 DELETE http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
 
+### DELETE vehicle 
+DELETE http://localhost:8080/veh/646667a9bcfda6fdb0a32d0c HTTP/1.1
