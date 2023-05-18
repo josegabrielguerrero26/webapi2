@@ -3,7 +3,7 @@
 ### local get all
 GET http://localhost:8080/contacts/ HTTP/1.1
 ### local get 1
-GET http://localhost:8080/contacts/64664904a37aee47133b4687 HTTP/1.1
+GET http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
 
 ### Create contact 
 POST http://localhost:8080/contacts HTTP/1.1
@@ -13,22 +13,22 @@ Content-Type: application/json
         "first_name": "test1",
         "last_name": "King",
         "email":"delv@google.com",
-        "favorite_color":"blue",
+        "city":"Austin",
         "birthday":"01/01/1950"
 }
 
 ### PUT contact 
-PUT http://localhost:8080/contacts/64596749b7d12ba4b43cc0ee HTTP/1.1
+PUT http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
 Content-Type: application/json 
 
 {
-        "first_name": "Gabriel",
+        "first_name": "test1",
         "last_name": "Paredes",
         "email":"guerrero.gjp@gmail.com",
-        "favorite_color":"brown",
+        "city":"Provo",
         "birthday":"02/06/1955"
 }
 
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/645d23ba56462185f5159565 HTTP/1.1
+DELETE http://localhost:8080/contacts/64664c75b58455bf86dfa720 HTTP/1.1
 
