@@ -25,9 +25,9 @@ const getSingle = async (req, res) => {
   mongodb
   .getDb()
   .db('project-portfolio')
-  .collection('users')
-  .find({ _id: userId })
-  .toArray((err, result) => {
+  .collection('users').
+  find({ _id: userId })
+  .toArray((err, lists) => {
     if (err) {
       res.status(400).json({ message: err });
     }

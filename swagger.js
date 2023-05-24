@@ -5,7 +5,7 @@ const doc = {
     title: 'API documentation',
     description: 'MongoDb with contacts'
   },
-  host: 'https://l06.onrender.com', // host: 'project1-kt79.onrender.com'
+  host: 'l06.onrender.com', // host: 'https://l06.onrender.com'
   schemes: ['https'] //schemes: ['https']
 };
 
