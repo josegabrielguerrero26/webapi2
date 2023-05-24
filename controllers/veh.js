@@ -2,38 +2,22 @@ const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
 const getAll = async (req, res) => {
-  mongodb
-  .getDb()
-  .db('project-portfolio')
-  .collection('vehicles')
-  .find()
-  .toArray((err, lists) => {
-    if (err) {
-      res.status(400).json({ message: err });
-    }
+  const result = await mongodb.getDb().db('project-portfolio').collection('vehicles').find();
+  result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
   });
 };
 
 const getSingle = async (req, res) => {
-  if (!ObjectId.isValid(req.params.id)) {
-    res.status(400).json('Must use a valid vehicle id to find a vehicle.');
-  }
   const userId = new ObjectId(req.params.id);
-  mongodb
-  .getDb()
-  .db('project-portfolio')
-  .collection('vehicles')
-  .find({ _id: userId })
-  toArray((err, result) => {
-    if (err) {
-      res.status(400).json({ message: err });
-    }
+  const result = await mongodb.getDb().db('project-portfolio').collection('vehicles').find({ _id: userId });
+  result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(result[0]);
+    res.status(200).json(lists[0]);
   });
 };
+
 const createveh = async (req, res) => {
   const veh = {
     Veh_number: req.body.Veh_number,
