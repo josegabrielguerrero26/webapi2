@@ -5,7 +5,7 @@
     "description": "MongoDb with contacts",
     "version": "1.0.0"
   },
-  "host": "project1-kt79.onrender.com",
+  "host": "https://l06.onrender.com",
   "basePath": "/",
   "tags": [
     {
