@@ -6,7 +6,7 @@ const doc = {
     description: 'MongoDb with contacts'
   },
   host: 'l06.onrender.com', // host: 'l06.onrender.com'
-  schemes: ['https'] //schemes: ['https']
+  schemes: ['https '] //schemes: ['https']
 };
 
 const outputFile = './swagger.json';
