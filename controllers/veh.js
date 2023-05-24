@@ -53,6 +53,9 @@ const createveh = async (req, res) => {
 };
 
 const updateveh = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('Must use a valid contact id to find a contact.');
+  }
   const userId = new ObjectId(req.params.id);
   // be aware of updateOne if you only want to update specific fields
   const veh = {
@@ -78,6 +81,9 @@ const updateveh = async (req, res) => {
 };
 
 const deleteveh = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('Must use a valid contact id to find a contact.');
+  }
   const userId = new ObjectId(req.params.id);
   const response = await mongodb.getDb().db('project-portfolio').collection('vehicles').deleteOne({ _id: userId }, true);
   console.log(response);
