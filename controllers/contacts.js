@@ -12,7 +12,7 @@ const getAll = async (req, res) => {
 const getSingle = (req, res) => {
   if (!ObjectId.isValid(req.params.id)) {
     res.status(400).json('Must use a valid contact id to find a contact.');
-  }
+  }else{
   const userId = new ObjectId(req.params.id);
   mongodb
     .getDb()
@@ -26,6 +26,7 @@ const getSingle = (req, res) => {
       res.setHeader('Content-Type', 'application/json');
       res.status(200).json(result[0]);
     });
+  }
 };
 
 const createContact = async (req, res) => {
