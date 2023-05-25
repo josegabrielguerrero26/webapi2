@@ -1,34 +1,38 @@
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
-const getAll = async (req, res, next) => {
-  try{
-  mongodb.getDb().db('project-portfolio').collection('users').find().toArray((err, lists) => {
-    if (err){
-      res.status(400).json({message: err});
-    }
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists);
-  });
-  } catch (err){
-    res.status(500).json(err);
+const getAll = (req, res) => {
+  mongodb
+    .getDb()
+    .db('project-portfolio')
+    .collection('users')
+    .find()
+    .toArray((err, lists) => {
+      if (err) {
+        res.status(400).json({ message: err });
+      }
+      res.setHeader('Content-Type', 'application/json');
+      res.status(200).json(lists);
+    });
+};
+
+const getSingle = (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('Must use a valid contact id to find a contact.');
   }
-  };
-
-
-const getSingle = async (req, res, next) => {
-  try {
   const userId = new ObjectId(req.params.id);
-  mongodb.getDb().db('project-portfolio').collection('users').find({ _id: userId }).toArray((err, result) => {
-    if (err){
-      res.status(400).json({message: err});
-    }
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(result[0]);
-  });
-} catch (err){
-  res.status(500).json(err);
-}
+  mongodb
+    .getDb()
+    .db('project-portfolio')
+    .collection('users')
+    .find({ _id: userId })
+    .toArray((err, result) => {
+      if (err) {
+        res.status(400).json({ message: err });
+      }
+      res.setHeader('Content-Type', 'application/json');
+      res.status(200).json(result[0]);
+    });
 };
 
 const createContact = async (req, res) => {
