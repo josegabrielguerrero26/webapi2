@@ -10,6 +10,9 @@ const getAll = async (req, res) => {
 };
 
 const getSingle = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('Must use a valid contact id to find a contact.');
+  }
   const userId = new ObjectId(req.params.id);
   const result = await mongodb.getDb().db('project-portfolio').collection('vehicles').find({ _id: userId });
   result.toArray().then((lists) => {
