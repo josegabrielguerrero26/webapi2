@@ -1,24 +1,34 @@
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
-const getAll = async (req, res) => {
-  const result = await mongodb.getDb().db('project-portfolio').collection('users').find();
-  result.toArray().then((lists) => {
-
+const getAll = async (req, res, next) => {
+  try{
+  mongodb.getDb().db('project-portfolio').collection('users').find().toArray((err, lists) => {
+    if (err){
+      res.status(400).json({message: err});
+    }
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
   });
-};
+  } catch (err){
+    res.status(500).json(err);
+  }
+  };
 
 
-const getSingle = async (req, res) => {
+const getSingle = async (req, res, next) => {
+  try {
   const userId = new ObjectId(req.params.id);
-  const result = await mongodb.getDb().db('project-portfolio').collection('users').find({ _id: userId });
-  result.toArray().then((lists) => {
- 
+  mongodb.getDb().db('project-portfolio').collection('users').find({ _id: userId }).toArray((err, result) => {
+    if (err){
+      res.status(400).json({message: err});
+    }
     res.setHeader('Content-Type', 'application/json');
-    res.status(200).json(lists[0]);
+    res.status(200).json(result[0]);
   });
+} catch (err){
+  res.status(500).json(err);
+}
 };
 
 const createContact = async (req, res) => {

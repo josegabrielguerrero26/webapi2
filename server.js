@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
+const routes = require('./routes');
 
 
 const app = express();
