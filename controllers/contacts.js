@@ -9,20 +9,16 @@ const getAll = async (req, res) => {
   });
 };
 
-const getSingle = (req, res) => {
+const getSingle = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('Must use a valid contact id to find a contact.');
+  }
   const userId = new ObjectId(req.params.id);
-  mongodb
-    .getDb()
-    .db('project-portfolio')
-    .collection('users')
-    .find({ _id: userId })
-    .toArray((err, result) => {
-      if (err) {
-        res.status(400).json({ message: err });
-      }
-      res.setHeader('Content-Type', 'application/json');
-      res.status(200).json(result[0]);
-    });
+  const result = await mongodb.getDb().db('project-portfolio').collection('users').find({ _id: userId });
+  result.toArray().then((lists) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.status(200).json(lists[0]);
+  });
 };
 
 const createContact = async (req, res) => {
