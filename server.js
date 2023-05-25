@@ -1,6 +1,7 @@
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 const express = require('express');
+const MongoClient = require('mongodb').MongoClient;
 
 
 const app = express();
@@ -19,7 +20,7 @@ app
   });
 
 
-mongodb.initDb((err) => {
+mongodb.initDb((err,mongodb) => {
   if (err) {
     console.log(err);
   } else {
