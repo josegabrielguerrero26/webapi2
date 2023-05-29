@@ -12,8 +12,8 @@ passport.deserializeUser(function(user, done) {
 passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_SECRET,
-    callbackURL: "https://l06.onrender.com/oauth-callback"
-    // callbackURL: "http://localhost:8080/oauth-callback" "https://l06.onrender.com/oauth-callback"
+    callbackURL: "https://l07.onrender.com/oauth-callback"
+    // callbackURL: "http://localhost:8080/oauth-callback" "https://l07.onrender.com/oauth-callback"
   },
   function(accessToken, refreshToken, profile, done) {
     return done(null, profile);
