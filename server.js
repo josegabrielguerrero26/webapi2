@@ -16,6 +16,8 @@ app.use(cookieSession({
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+
 app.get('/logout', (req, res) => {
   req.session = null;
   req.logout();
