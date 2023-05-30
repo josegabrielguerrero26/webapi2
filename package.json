@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/josegabrielguerrero26/webapi2#readme",
   "dependencies": {
+    "axios": "^1.4.0",
     "body-parser": "^1.20.2",
     "cookie-session": "^2.0.0",
     "cors": "^2.8.5",
