@@ -2,10 +2,11 @@ const express = require('express');
 const router = express.Router();
 const isLoggedIn = require('../middleware/auth.js');
 const passport = require('passport');
+const path = require('path');
 
 router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../static/index.html'));
-  });
+  });// log in main 
 
 router.get('/auth',passport.authenticate('github',{ scope: [ 'user:email' ] }));// get authenticated by 
 router.get('/auth/error', (req, res) => res.send('Unknown Error'));// if error
